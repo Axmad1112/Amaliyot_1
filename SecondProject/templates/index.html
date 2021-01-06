@@ -2,15 +2,15 @@
     <head>
         <title>Namuna</title>
     </head>
-    <body style="background-color: green;">
+    <body style="background-color: aqua;">
         
         <form method="POST">
         {% csrf_token %}
             Birinchi son
-                <input type="number" name="val_1"><br><br>
+                <input type="number" name="val_1"><br>
             Ikkinchi son
-                <input type="number" name="val_2"><br>
-            <input type="submit" value="Add">
+                <input type="number" name="val_2">
+            <input type="submit" value="OK">
         </form>
 
         {% if s %}
